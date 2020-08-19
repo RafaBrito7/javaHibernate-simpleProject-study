@@ -6,6 +6,8 @@
 
 	<persistence-unit name="projeto-hibernate-jdev">
 
+		<class>projeto.hibernate.jdev.model.UsuarioPessoa</class>
+
 		<properties>
 			<!-- Dados de Conexão com o Banco -->
 			<property name="hibernate.connection.driver_class"
